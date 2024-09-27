@@ -1,0 +1,8 @@
+#!/bin/sh
+
+extend_file() {
+  FILE_TO_EXTEND=$1
+  EXTENDING_FILE=$2
+  OUTPUT_FILE=$3
+  cat $FILE_TO_EXTEND $EXTENDING_FILE > $OUTPUT_FILE
+}
